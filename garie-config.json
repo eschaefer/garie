@@ -1,8 +1,44 @@
 {
-	"cron": "0 */4 * * *",
+	"cron": "0 0 0/12 1/1 * ? *",
 	"urls": [
 		{
-			"url": "https://www.google.co.uk",
+			"url": "https://www.eyeem.com",
+			"plugins": [
+				{
+					"name": "lighthouse",
+					"report": true
+				}
+			]
+		},
+		{
+			"url": "https://www.eyeem.com/search/pictures/snowflake?marketScore[]=great&marketStatus=commercial&q=snowflake&replaceQuery=true&sort=relevance",
+			"plugins": [
+				{
+					"name": "lighthouse",
+					"report": true
+				}
+			]
+		},
+		{
+			"url": "https://www.eyeem.com/u/gen",
+			"plugins": [
+				{
+					"name": "lighthouse",
+					"report": true
+				}
+			]
+		},
+		{
+			"url": "https://www.eyeem.com/p/139608334",
+			"plugins": [
+				{
+					"name": "lighthouse",
+					"report": true
+				}
+			]
+		},
+		{
+			"url": "https://www.eyeem.com/blog/humanize-financial-companies",
 			"plugins": [
 				{
 					"name": "lighthouse",
